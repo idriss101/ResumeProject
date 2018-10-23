@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+  margin-bottom: 0%;
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Styling the content of the right side */
+
+h1 {
+  font-size: 4.9em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.1em;
+  color: #868e96;
+  width: 90%;
+  line-height: 1.5;
+}
+
+#contact {
+  margin-top: 0;
+  margin-bottom: 70px;
+  padding-top: 0;
+  text-transform: uppercase;
+}
+
+#about {
+  color: white;
+}
+
+#lastname, #email {
+  color: #BD5D38;
+}
+
+#email:link {
+  text-decoration: none;
+}
+
+#email:hover {
+  opacity: 0.7;
+}
+
+.social {
+  width: 70px;
+  height: 70px;
+}
+
+#socialmedia li {
+  display: inline;
+  padding: 10px;
+}
+
+#socialmedia {
+  margin-top: 40px;
+}
+
+/* Styling the content of the left side */
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 0;
+  line-height: 1.8;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+nav a:link {
+  color: rgba(255, 255, 255, .5);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgba(255, 255, 255, .8);
+}
+
+nav a:visited {
+  color: rgba(255, 255, 255, .5);
+}
+
+#cloud {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Styling how the right and left sides should look */
+
+.right {
+  float: right;
+  width: 77%;
+  margin-top: 0;
+  padding-top: 250px;
+  margin-bottom: 20%;
+}
+
+.left {
+  background-color: #BD5D38;
+  margin-top: 0;
+  float: left;
+  width: 20%;
+  height: 100vh;
+  color: white;
+  padding-top: 250px;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 1000px) {
+  #cloud {
+    width: 90px;
+    height: 90px;
+  }
+  .left {
+    padding-top: 300px;
+  }
+  nav ul li {
+    font-size: 1em;
+  }
+}
